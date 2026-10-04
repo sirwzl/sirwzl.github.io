@@ -39,6 +39,10 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
+  button {
+    touch-action: manipulation;
+  }
+
   * {
     @apply border-emerald-800/20;
   }
